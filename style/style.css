@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
+body {
+  font-family: "Quicksand", sans-serif;
+}
+body .wrapper {
+  margin: 0 auto;
+  width: 60%;
+}
+body .wrapper .category-title {
+  margin-top: 25px;
+  font-size: 25px;
+  font-weight: 700;
+}
+body .wrapper .category-wrap {
+  display: flex;
+  width: 100%;
+  border-bottom: 2px dashed #c2c2c2;
+}
+body .wrapper .category-wrap .category-block {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin: 15px;
+  padding: 25px;
+  background-color: #E4E4E4;
+}
+body .wrapper .category-wrap .category-block img {
+  height: 65px;
+}
+body .wrapper .category-wrap .category-block .category-block-feature span {
+  display: inline-block;
+  font-weight: 700;
+}
+body .wrapper .category-wrap .category-block .category-block-feature span::first-letter {
+  text-transform: uppercase;
+}
+body .wrapper .category-wrap .category-block #category-block-name {
+  margin: 10px 0;
+}
+body .wrapper #cosmetics .category-block {
+  width: 20%;
+}/*# sourceMappingURL=style.css.map */
